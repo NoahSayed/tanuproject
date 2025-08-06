@@ -1,14 +1,11 @@
 import React from "react";
-import Resturant from "./component/Basics/Resturant";
-import UseStateHook from "./component/Hooks/useState";
-import UseEffectHook from "./component/Hooks/useEffect";
-import UseReducerHook from "./component/Hooks/useReducer";
+import Restaurant from "./component/Basics/Resturant";
+import "./component/Basics/style.css";
 
 const App = () => {
     return (
         <>
-            <Resturant />
-            
+            <Restaurant />
         </>
     );
 };
